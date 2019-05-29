@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  who-suicide-stats:
+    image: python
+    working_dir: /app
+    command: bash -c "pip install -r requirements.txt && jupyter notebook --ip 0.0.0.0 --no-browser --allow-root"
+    ports:
+      - 8888:8888
+    volumes:
+      - ./:/app
+
