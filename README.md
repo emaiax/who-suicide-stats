@@ -1,4 +1,4 @@
-# Análise de dados de suicídios no Brasil e no Mundo desde 1979
+## Análise de dados de suicídios no Brasil e no Mundo desde 1979
 
 *Origem dos dados:* https://www.kaggle.com/szamil/who-suicide-statistics
 
